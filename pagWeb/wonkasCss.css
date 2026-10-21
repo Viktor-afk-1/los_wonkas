@@ -1,3 +1,49 @@
-h1 {
-    color: pink;
+.h1 {
+    color: indigo;
+    font-family:  "Emilys Candy", "Dynalight", cursive;
+}
+body {
+    background: url(https://i.pinimg.com/564x/e3/10/c4/e310c478e4e1ee52070e666e3bfe8617.jpg);
+    font-family: "PT Serif", serif;
+    color: rgb(107, 65, 37);
+    font-weight: bold;
+}
+.texto {
+    padding: 1em;
+    border: 3% dashed palegoldenrod;
+      background-image: linear-gradient(to bottom, bisque, rgba(255, 218, 169, 0.144));
+    border-radius: 1% 1% 20% 20%;
+}
+
+.rowInfo{
+    border: 0.2em dashed sandybrown;
+  padding: 2em;
+  border-radius: 1%;
+  font-size: 140%;
+  margin: 10px;
+line-height: 1.6;	
+background: url("https://img.magnific.com/free-psd/bakery-elements-still-life-background_23-2150580288.jpg?semt=ais_hybrid&w=740&q=80");
+background-origin: border-box;
+background-size: cover;
+}
+.rowInfo img {
+  border-radius: 2%;
+  border: 0.2em groove rgb(32, 23, 16);
+    max-width: 70%;
+}
+
+h2 {
+    color:antiquewhite;
+    font-family: "Berkshire Swash", serif;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(107, 65, 37);
+    font-size: 200%;
+    padding: 0.5em;
+    align-items: center;
+    text-decoration: underline double 1px;
+    text-underline-offset: 2px;
+    text-decoration-skip-ink: auto;
+}
+.productoImagen {
+    width: 40%;
 }
