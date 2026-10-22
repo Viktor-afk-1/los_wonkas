@@ -22,8 +22,6 @@ body {
 
 }
 
-
-
 .rowInfo{
     border: 0.2em dashed sandybrown;
   padding: 2em;
@@ -102,9 +100,10 @@ h2 {
   transform: translateY(10px);
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
+@media (min-width: 767.98px){
 .imagenCool:hover::after {
   opacity: 1;
-}
+}}
 
 /* Reveal and smoothly slide the text up slightly */
 .imagenCool:hover .overlay-text {
@@ -114,4 +113,11 @@ h2 {
 footer {
   font-size: 50%;
   background-color: beige;
+}
+.texto-mobile {
+    padding: 1rem;
+    font-size: 70%;
+    background-color: bisque;
+    
+    color: rgb(107, 65, 37);
 }
