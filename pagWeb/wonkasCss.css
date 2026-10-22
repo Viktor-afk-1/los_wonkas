@@ -15,6 +15,15 @@ body {
     border-radius: 1% 1% 20% 20%;
 }
 
+.recetas {
+  background-color: bisque;
+  padding: 0.5em;
+  align-items: center;
+
+}
+
+
+
 .rowInfo{
     border: 0.2em dashed sandybrown;
   padding: 2em;
@@ -22,7 +31,7 @@ body {
   font-size: 140%;
   margin: 10px;
 line-height: 1.6;	
-background: url("https://img.magnific.com/free-psd/bakery-elements-still-life-background_23-2150580288.jpg?semt=ais_hybrid&w=740&q=80");
+background: url("https://img.magnific.com/premium-vector/seamless-pattern-hand-drawn-baking-elements_621139-11.jpg?semt=ais_hybrid&w=740&q=80");
 background-origin: border-box;
 background-size: cover;
 }
@@ -44,13 +53,13 @@ h2 {
     text-underline-offset: 2px;
     text-decoration-skip-ink: auto;
 }
-.productoImagen {
-    width: 40%;
-}
+
 .recetas {
   font-size: large;
   padding: 2em;
   margin: 2em;
+  border-radius: 20% 20% 0% 0%;
+  border: 3px double rgb(107, 65, 37);;
 }
 .imagenCool {
   position: relative;
@@ -60,8 +69,9 @@ h2 {
   cursor: pointer;
 }
 .imagenCool img {
+  aspect-ratio: 3 / 2;
   width: 100%;
-  height: auto;
+  object-fit: cover;
   display: block;}
 
 .imagenCool::after {
