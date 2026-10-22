@@ -8,6 +8,7 @@ body {
     color: rgb(107, 65, 37);
     font-weight: bold;
 }
+
 .texto {
     padding: 1em;
     border: 3% dashed palegoldenrod;
@@ -29,10 +30,16 @@ body {
   font-size: 140%;
   margin: 10px;
 line-height: 1.6;	
-background: url("https://img.magnific.com/premium-vector/seamless-pattern-hand-drawn-baking-elements_621139-11.jpg?semt=ais_hybrid&w=740&q=80");
+background: url("https://static.vecteezy.com/system/resources/thumbnails/079/507/767/small/cute-various-bakery-pattern-background-vector.jpg");
 background-origin: border-box;
 background-size: cover;
 }
+
+@media (max-width: 767.98px){
+  .rowInfo {
+     font-size: 80%;}
+}
+
 .rowInfo img {
   border-radius: 2%;
   border: 0.2em groove rgb(32, 23, 16);
