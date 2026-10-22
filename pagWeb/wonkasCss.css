@@ -110,3 +110,8 @@ h2 {
 .imagenCool:hover .overlay-text {
   opacity: 1;
   transform: translateY(0);}
+
+footer {
+  font-size: 50%;
+  background-color: beige;
+}
