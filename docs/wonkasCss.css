@@ -36,9 +36,10 @@ background-size: cover;
 }
 
 @media (max-width: 767.98px){
-  
   .rowInfo {
-     font-size: 80%;}
+     font-size: 80%;
+    }
+  
 }
 
 .rowInfo img {
@@ -65,8 +66,19 @@ h2 {
   padding: 2em;
   margin: 2em;
   border-radius: 20% 20% 0% 0%;
-  border: 3px double rgb(107, 65, 37);;
+  border: 3px double rgb(107, 65, 37);
 }
+
+@media (max-width: 767.98px){
+  .recetas {
+     padding: 0.5em;
+     margin: 0.5em;
+     border-radius: 0%;
+    }
+  
+}
+
+
 .imagenCool {
   position: relative;
   width: 100%;
