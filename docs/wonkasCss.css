@@ -36,6 +36,7 @@ background-size: cover;
 }
 
 @media (max-width: 767.98px){
+  
   .rowInfo {
      font-size: 80%;}
 }
@@ -125,6 +126,5 @@ footer {
     padding: 1rem;
     font-size: 70%;
     background-color: bisque;
-    
     color: rgb(107, 65, 37);
 }
