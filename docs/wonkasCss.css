@@ -140,3 +140,10 @@ footer {
     background-color: bisque;
     color: rgb(107, 65, 37);
 }
+
+.photoImagen {
+  aspect-ratio: 3 / 2;
+  width: 70%;
+  object-fit: cover;
+  display: block;
+margin: 1em}
